@@ -1,0 +1,13 @@
+{
+    "require": {
+        "ckeditor/ckeditor": "4.22.x",
+        "matrix-platform/backend-adminlte": "dev-master",
+        "matrix-platform/core": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "sh vendor/matrix-platform/core/doc/install-core.sh",
+            "sh vendor/matrix-platform/backend-adminlte/doc/install-backend.sh"
+        ]
+    }
+}
